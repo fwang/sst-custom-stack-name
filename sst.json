@@ -1,0 +1,5 @@
+{
+  "name": "sst-custom-stack-name",
+  "region": "us-east-1",
+  "main": "stacks/index.js"
+}
