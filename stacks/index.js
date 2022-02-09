@@ -6,7 +6,7 @@ export default function main(app) {
     runtime: "nodejs14.x"
   });
 
-  new MyStack(app, "stack-1", { stackName: `my-service-${app.stage}-stack-1` });
+  new MyStack(app, "stack-1", { stackName: `${app.name}-${app.stage}-stack-1` });
 
   // Add more stacks
 }
